@@ -1,0 +1,281 @@
+/* components/Footer.module.css */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 0 0;
+  font-family: Arial, sans-serif;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.footerSection h3 {
+  color: #1e90ff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footerSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footerSection ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerSection ul li a:hover {
+  color: #1e90ff;
+}
+
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialIcons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #1e90ff;
+  transform: translateY(-3px);
+}
+
+.footerBottom {
+  background-color: #111;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footerBottom p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+
+  .footerSection {
+    margin-bottom: 2rem;
+  }
+}
+
+/* components/Footer.module.css */
+/* ... (previous styles remain the same) ... */
+
+.socialIcons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #1e90ff;
+}
+
+/* ... (rest of the styles remain the same) ... */
+
+.footer {
+  background: linear-gradient(to bottom, #1a202c, #000000);
+  color: #ffffff;
+  padding: 3rem 0;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.footerSection {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #63b3ed;
+  margin-bottom: 1rem;
+}
+
+.companyName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #63b3ed;
+  margin-bottom: 1rem;
+}
+
+.companyDescription {
+  margin-bottom: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.socialIcon:hover {
+  color: #63b3ed;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.linkList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerLink {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerLink:hover {
+  color: #63b3ed;
+}
+
+.linkText {
+  display: inline-block;
+}
+
+.contactList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contactIcon {
+  margin-right: 0.5rem;
+  color: #63b3ed;
+}
+
+.quoteButton {
+  margin-top: 1rem;
+  background-color: #3182ce;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quoteButton:hover {
+  background-color: #2c5282;
+}
+
+.bottomBar {
+  border-top: 1px solid #2d3748;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.bottomLinks {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #a0aec0;
+}
+
+.bottomLink {
+  color: #a0aec0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 0.25rem;
+}
+
+.bottomLink:hover {
+  color: #63b3ed;
+}
+
+.scrollTopButton {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #3182ce;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.scrollTopButton:hover {
+  background-color: #2c5282;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
