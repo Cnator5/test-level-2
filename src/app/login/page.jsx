@@ -1,24 +1,43 @@
 "use client";
-import React from 'react'
+
+import React from 'react';
 import { useSession, signIn, signOut } from "next-auth/react";
+import Image from 'next/image';
 
 const Login = () => {
-    const { data: session } = useSession();
-    if (session) {
-        return (
-          <div className='flex justify-center w-full min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 items-center flex-col gap-10'>
-            Signed in as {session.user.email} <br />
-            <button className="bg-red-400 px-10 py-5 outline-none rounded-xl text-white font-bold"
-             onClick={() => signOut()}>Sign out</button>
-          </div>
-        )
-      }
-    
+  const { data: session } = useSession();
+
   return (
-    <div className="flex justify-center w-full min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 items-center">
-       <button onClick={()=>signIn('google')} className="bg-cyan-400 px-10 py-5 outline-none rounded-xl text-white font-bold">Login with Google</button>
+    <div className="flex justify-center items-center min-h-screen bg-white">
+      <div className="bg-blue-900 p-8 rounded-xl shadow-lg text-center w-[60%]">
+        <Image 
+          src="/images/Modrino-removebg-preview 1.png" 
+          alt="App Logo" 
+          width={200} 
+          height={200} 
+          className="mx-auto mb-6"
+        />
+        {session ? (
+          <>
+            <p className="text-white text-lg mb-6">Logged in as {session.user.email}</p>
+            <button
+              className="bg-white text-black px-10 py-3 rounded-xl font-bold hover:bg-blue-800 transition duration-300"
+              onClick={() => signOut()}
+            >
+              Sign out
+            </button>
+          </>
+        ) : (
+          <button
+            onClick={() => signIn('google')}
+            className="bg-white text-black px-10 py-3 rounded-xl font-bold hover:bg-blue-800 transition duration-300"
+          >
+            Login with Google
+          </button>
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
