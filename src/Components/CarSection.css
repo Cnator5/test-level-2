@@ -1,6 +1,6 @@
 /* CarSection.css */
 .car-section {
-  margin-top: 20px;
+  margin-top: 60px;
   padding: 20px;
   overflow-x: auto;
 }
@@ -20,5 +20,12 @@
 @media (max-width: 1024px) {
   .car-container {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 768px){
+  .car-section {
+    margin-top: 60px;
+    padding: 20px;
+    overflow-x: auto;
   }
 }
