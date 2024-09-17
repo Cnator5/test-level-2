@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroSection from './../Components/HeroSection';
-import ProductCarousel from './../Components/Carousel/ProductCarousel';
+import CarShowcase from '../Components/Carousel/CarShowcase';
 import OurServices from './../Components/Services/OurServices';
 import CarSection from './../Components/CarSection';
 const page = () => {
@@ -8,7 +8,7 @@ const page = () => {
     <div className=''>
          <HeroSection/>
         <CarSection/>
-      <ProductCarousel/>
+        <CarShowcase/>
       <OurServices/>
     </div>
   )

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FaCar, FaTachometerAlt, FaGasPump, FaCogs } from 'react-icons/fa';
-import "./ProductCarousel.css";
+import "./CarShowcase.css";
 const categories = [
   {
     name: 'In Stuck',
