@@ -57,10 +57,10 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Our Story</h2>
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-2/3 md:pr-8 mb-8 md:mb-0">
-                <p className="text-gray-600 leading-relaxed mb-4">
+                <p className="text-black leading-relaxed mb-4">
                   Premium Auto Sales was born from a passion for cars and a desire to revolutionize the car buying experience. Our founder, Jane Doe, started with a small lot and a big dream.
                 </p>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-black leading-relaxed">
                   Today, we are proud to be the region  leading car dealership, known for our exceptional customer service and unparalleled selection of vehicles.
                 </p>
               </div>
