@@ -43,8 +43,8 @@
     margin-bottom: 1.5rem;
   }
   .explore-button {
-    background-color: #2563eb;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 0.5rem 1.5rem;
     border-radius: 9999px;
     transition: background-color 0.3s;
@@ -99,8 +99,8 @@
     transition: background-color 0.3s, color 0.3s;
   }
   .category-button-active {
-    background-color: #2563eb;
-    color: white;
+    color: black;
+    background-color: white;
   }
   .category-button-inactive {
     background-color: white;
