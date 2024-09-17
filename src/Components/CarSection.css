@@ -1,17 +1,24 @@
-.car-section-wrapper {
-    margin-top: 80px;
+/* CarSection.css */
+.car-section {
+  margin-top: 20px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.car-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-width: max-content;
+}
+
+.car-item {
+  flex: 0 0 calc(20% - 16px);
+  max-width: 200px;
+}
+
+@media (max-width: 1024px) {
+  .car-container {
+    justify-content: flex-start;
   }
-  
-  .car-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-  }
-  
- 
+}

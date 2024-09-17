@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from '../Components/Navbar/Navbar';
 import AuthProvider from './../../context/AuthContext';
 import Footer from '../Components/Footer/Footer';
+import HeroSection from './../Components/HeroSection';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <AuthProvider>
         <body className={inter.className}>
           <Navbar />
+          <HeroSection />
           {children}
           <Footer />  {/* na place this footer get for always be. i.e inside the body */}
         </body>

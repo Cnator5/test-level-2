@@ -14,17 +14,15 @@ const CarSection = () => {
   ];
 
   return (
-    <div className="car-section-wrapper">
-      <div className="car-section">
+    <section className="car-section">
+      <div className="car-container">
         {cars.map((car, index) => (
           <div key={index} className="car-item">
-            <div className="car-image">
-              <Image src={car.image} alt={`Car ${index + 1}`} width={100} height={100} />
-            </div>
+            <Image src={car.image} alt={`Car ${index + 1}`} width={200} height={150} layout="responsive" />
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
