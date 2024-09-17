@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { FaCar, FaTachometerAlt, FaGasPump, FaCogs } from 'react-icons/fa';
 import "./CarShowcase.css";
 const categories = [
   {
@@ -18,7 +17,6 @@ const categories = [
   },
   {
     name: 'Used cars',
-  
     image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
     description: 'Spacious and versatile vehicles for families and adventurers.',
     cars: [
@@ -30,7 +28,6 @@ const categories = [
   },
   {
     name: 'Any Model',
- 
     image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
     description: 'Powerful and capable vehicles for work and play.',
     cars: [
@@ -42,7 +39,6 @@ const categories = [
   },
   {
     name: 'Any Motors',
-  
     image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
     description: 'Eco-friendly vehicles with cutting-edge technology.',
     cars: [

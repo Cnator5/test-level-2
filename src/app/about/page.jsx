@@ -24,7 +24,7 @@ export default function About() {
             <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
               <h2 className="text-3xl font-bold mb-4 text-gray-800">Driving Dreams, Delivering Excellence</h2>
               <p className="text-gray-600 leading-relaxed">
-                Since 2005, we've been helping car enthusiasts find their perfect match. Our passion for automobiles and commitment to customer satisfaction sets us apart in the industry.
+                Since 2005, we have been helping car enthusiasts find their perfect match. Our passion for automobiles and commitment to customer satisfaction sets us apart in the industry.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -61,7 +61,7 @@ export default function About() {
                   Premium Auto Sales was born from a passion for cars and a desire to revolutionize the car buying experience. Our founder, Jane Doe, started with a small lot and a big dream.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Today, we're proud to be the region's leading car dealership, known for our exceptional customer service and unparalleled selection of vehicles.
+                  Today, we are proud to be the region  leading car dealership, known for our exceptional customer service and unparalleled selection of vehicles.
                 </p>
               </div>
               <div className="md:w-1/3">
