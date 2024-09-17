@@ -1,0 +1,84 @@
+.servicesSection {
+  background-color: #f3f4f6;
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.sectionTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.serviceCard {
+  background-color: black;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.serviceIcon {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.serviceTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.serviceDescription {
+  margin-bottom: 1rem;
+  color: #d1d5db;
+}
+
+.imageContainer {
+  position: relative;
+  height: 24rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.contactButton {
+  margin-top: auto;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactButton:hover {
+  background-color: #1d4ed8;
+}
+
+@media (min-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .wideCard {
+    grid-column: span 2;
+  }
+}
