@@ -13,9 +13,9 @@ const Login = () => {
         <Image 
           src="/images/Modrino-removebg-preview 1.png" 
           alt="App Logo" 
-          width={200} 
+          width={300} 
           height={200} 
-          className="mx-auto mb-6"
+          className="mx-auto"
         />
         {session ? (
           <>

@@ -1,0 +1,144 @@
+.hero-section {
+  background-color: black;
+  color: white;
+  position: relative;
+  overflow: visible;
+}
+
+.hero-container {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+@media (min-width: 640px) {
+  .hero-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-content {
+    flex-direction: row;
+  }
+}
+
+.hero-text {
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    width: 50%;
+  }
+}
+
+.hero-title {
+  font-size: 1.875rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-image-container {
+  position: absolute;
+  margin-left: 40%;
+  bottom: 10rem;
+  transform: translateY(50%);
+  width: 50%;
+  height: 300px;
+}
+
+@media (min-width: 640px) {
+  .hero-image-container {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image-container {
+    width: 50%;
+    height: 500px;
+  }
+}
+
+.hero-image {
+  transition: transform 0.3s;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px){
+    .hero-image-container {
+        position: absolute;
+        display: flex;
+        margin: auto;
+        top: 10px;
+        bottom: 10rem;
+        width: 80%;
+        height: 350px;
+      }
+      
+      .hero-content {
+        flex-direction: row;
+      }
+      .hero-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }

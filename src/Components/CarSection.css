@@ -1,0 +1,31 @@
+.car-section-wrapper {
+    margin-top: 80px;
+  }
+  
+  .car-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .car-image {
+    margin-bottom: 10px;
+  }
+  
+  .car-name {
+    font-weight: bold;
+  }
