@@ -131,7 +131,7 @@ export default function Footer() {
                 className={styles.contactItem}
               >
                 <FaMapMarkerAlt className={styles.contactIcon} />
-                <span>237 Car Avenue, Innovation District, Akraw, Douala</span>
+                <span>237 Car Avenue, Innovation District, Akwa, Douala</span>
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, x: -20 }}
