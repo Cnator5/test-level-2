@@ -1,137 +1,189 @@
 .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.category-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  height: auto;
+}
+.category-info {
+  width: 100%;
+  padding: 2rem;
+  color: white;
+}
+.category-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.icon {
+  font-size: 2rem;
+  color: #60a5fa;
+  margin-right: 0.75rem;
+}
+.category-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.category-description {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+.category-sub {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+.explore-button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+.explore-button:hover {
+  background-color: #1d4ed8;
+}
+.category-image {
+  width: 100%;
+  height: 12rem;
+  position: relative;
+}
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+.car-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+.car-image {
+  position: relative;
+  height: 10rem;
+}
+.car-info {
+  padding: 1rem;
+}
+.car-name {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+.car-price {
+  color: #4b5563;
+}
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.category-button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+.category-button-active {
+  color: black;
+  background-color: white;
+}
+.category-button-inactive {
+  background-color: white;
+  color: #2563eb;
+}
+.category-button-inactive:hover {
+  background-color: #e0f2fe;
+}
+.showcase {
+  background-color: #f3f4f6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.showcase-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
   .category-banner {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    border-radius: 0.75rem;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    margin-bottom: 2rem;
-    height: 24rem;
+    flex-direction: row;
+    height: 20rem;
   }
   .category-info {
     width: 50%;
-    padding: 2rem;
-    color: white;
-  }
-  .category-icon {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  .icon {
-    font-size: 2.25rem;
-    color: #60a5fa;
-    margin-right: 0.75rem;
-  }
-  .category-title {
-    font-size: 1.875rem;
-    font-weight: bold;
-  }
-  .category-description {
-    color: #d1d5db;
-    margin-bottom: 1.5rem;
-  }
-  .category-sub {
-    color: #d1d5db;
-    margin-bottom: 1.5rem;
-  }
-  .explore-button {
-    background-color: white;
-    color: black;
-    padding: 0.5rem 1.5rem;
-    border-radius: 9999px;
-    transition: background-color 0.3s;
-  }
-  .explore-button:hover {
-    background-color: #1d4ed8;
   }
   .category-image {
     width: 50%;
     height: 100%;
-    position: relative;
   }
   .car-grid {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2rem;
-  }
-  .car-card {
-    background-color: white;
-    border-radius: 0.75rem;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-  }
-  .car-image {
-    position: relative;
-    height: 12rem;
-  }
-  .car-info {
-    padding: 1rem;
-  }
-  .car-name {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #1f2937;
-    margin-bottom: 0.5rem;
-  }
-  .car-price {
-    color: #4b5563;
-  }
-  .category-buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-  .category-button {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 9999px;
-    font-size: 1.125rem;
-    font-weight: 600;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  .category-button-active {
-    color: black;
-    background-color: white;
-  }
-  .category-button-inactive {
-    background-color: white;
-    color: #2563eb;
-  }
-  .category-button-inactive:hover {
-    background-color: #e0f2fe;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .showcase {
-    background-color: #f3f4f6;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .showcase-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .car-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  .category-title {
+    font-size: 1.75rem;
+  }
+  .icon {
+    font-size: 2.25rem;
+  }
+  .showcase-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .car-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .category-banner {
+    height: 24rem;
+  }
+  .category-title {
+    font-size: 1.875rem;
+  }
+  .showcase {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .showcase-title {
     font-size: 4rem;
-    font-weight: 400;
     line-height: 4.66rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    /* font-family: 'Sansita One', cursive; */
-    color: #1f2937;
-    margin-bottom: 3rem;
   }
-  @media (min-width: 768px) {
-    .car-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  @media (min-width: 1024px) {
-    .car-grid {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
+}
