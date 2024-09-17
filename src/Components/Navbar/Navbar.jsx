@@ -29,8 +29,8 @@ const Navbar = () => {
             <Image
               src="/images/Modrino-removebg-preview 1 (1).png"
               alt="Modrino Logo"
-              width={200}
-              height={80}
+              width={110}
+              height={50}
             />
           </div>
         </Link>

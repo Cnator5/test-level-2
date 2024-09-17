@@ -4,8 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaCar, FaHeadset } from 'react-icons/fa';
 import styles from '../Services/OurServices.module.css';
-
+import HeroSection from './../HeroSection';
 const OurServices = () => (
+    <>
+    <HeroSection/>
   <section className={styles.servicesSection}>
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>Our Services</h2>
@@ -48,6 +50,7 @@ const OurServices = () => (
       </div>
     </div>
   </section>
+  </>
 );
 
 export default OurServices;
