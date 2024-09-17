@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { FaCar, FaHeadset } from 'react-icons/fa';
 import styles from '../Services/OurServices.module.css';
 const OurServices = () => (
+  <>
   <section className={styles.servicesSection}>
     <div className={styles.container}>
       <h2 className={styles.sectionTitle}>Our Services</h2>
@@ -47,6 +48,57 @@ const OurServices = () => (
       </div>
     </div>
   </section>
+  <div ClassName="cars">
+  <div style={{
+      backgroundImage: "url('/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png')",
+      backgroundSize: "contain",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+      width: "100%",
+      height: "100vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+    </div>
+        <div style={{
+      backgroundImage: "url('/images/image-realistictransport-truck_1142389-19601.jpg')",
+      backgroundSize: "contain",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+      width: "100%",
+      height: "40vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+    </div>
+        <div style={{
+      backgroundImage: "url('/images/magnificent-suv-isolated-white-background_787273-75251.jpg')",
+      backgroundSize: "contain",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+      width: "100%",
+      height: "50vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+    </div>
+        <div style={{
+      backgroundImage: "url('/images/pngtree-black-super-car-png-image_11921537.png')",
+      backgroundSize: "contain",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+      width: "100%",
+      height: "70vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+    </div>
+  </div>
+  </>
 );
 
 export default OurServices;

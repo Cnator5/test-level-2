@@ -40,12 +40,12 @@ export default function About() {
             </div>
           </div>
         </section>
-       
+
         <div style={{
       backgroundImage: "url('/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png')",
       backgroundSize: "contain",
       backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
+      backgroundRepeat: "repeat",
       width: "100%",
       height: "100vh",
       display: "flex",
@@ -57,9 +57,9 @@ export default function About() {
       backgroundImage: "url('/images/image-realistictransport-truck_1142389-19601.jpg')",
       backgroundSize: "contain",
       backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
+      backgroundRepeat: "repeat",
       width: "100%",
-      height: "100vh",
+      height: "40vh",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -69,9 +69,21 @@ export default function About() {
       backgroundImage: "url('/images/magnificent-suv-isolated-white-background_787273-75251.jpg')",
       backgroundSize: "contain",
       backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
+      backgroundRepeat: "repeat",
       width: "100%",
-      height: "100vh",
+      height: "50vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}>
+    </div>
+        <div style={{
+      backgroundImage: "url('/images/pngtree-black-super-car-png-image_11921537.png')",
+      backgroundSize: "contain",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+      width: "100%",
+      height: "70vh",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
