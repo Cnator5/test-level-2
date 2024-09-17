@@ -140,7 +140,7 @@ export default function Footer() {
                 className={styles.contactItem}
               >
                 <FaPhone className={styles.contactIcon} />
-                <span>+237 (681) 123456</span>
+                <span>+237 (681) 326 315</span>
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, x: -20 }}
