@@ -14,7 +14,7 @@ const HeroSection = () => {
             <p className="hero-description">
               Discover the perfect vehicle that matches your style, performance needs, and budget. Our collection awaits your exploration.
             </p>
-            <Link href="/cars" className="hero-button">
+            <Link href="/contact" className="hero-button">
               Learn More
             </Link>
           </div>

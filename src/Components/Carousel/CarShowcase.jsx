@@ -9,43 +9,43 @@ const categories = [
     image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
     description: 'ROLLS ROYCE Wraith',
     cars: [
-      { image: '/images/Group 65.png' },
       { image: '/images/Group 63.png' },
       { image: '/images/Group 64.png' },
+      { image: '/images/Group 65.png' },
       { image: '/images/Group 62.png' },
     ]
   },
   {
     name: 'Used cars',
-    image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
+    image: '/images/white-midsize-city-suv-family-black-background-3d-rendering_101266-20790-removebg-preview 1.png',
     description: 'Spacious and versatile vehicles for families and adventurers.',
     cars: [
       { image: '/images/Group 65.png' },
+      { image: '/images/Group 62.png' },
       { image: '/images/Group 63.png' },
       { image: '/images/Group 64.png' },
-      { image: '/images/Group 62.png' },
     ]
   },
   {
     name: 'Any Model',
-    image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
+    image: '/images/pngtree-black-super-car-png-image_11921537.png',
     description: 'Powerful and capable vehicles for work and play.',
     cars: [
-        { image: '/images/Group 65.png' },
-        { image: '/images/Group 63.png' },
+      { image: '/images/Group 63.png' },
+      { image: '/images/Group 65.png' },
+      { image: '/images/Group 62.png' },
         { image: '/images/Group 64.png' },
-        { image: '/images/Group 62.png' },
     ]
   },
   {
     name: 'Any Motors',
-    image: '/images/beautiful-rolls-royce-car_999195-437-removebg-preview 1.png',
+    image: '/images/electric_car_PNG42.png',
     description: 'Eco-friendly vehicles with cutting-edge technology.',
     cars: [
+      { image: '/images/Group 64.png' },
+      { image: '/images/Group 62.png' },
         { image: '/images/Group 65.png' },
         { image: '/images/Group 63.png' },
-        { image: '/images/Group 64.png' },
-        { image: '/images/Group 62.png' },
     ]
   },
 ];
