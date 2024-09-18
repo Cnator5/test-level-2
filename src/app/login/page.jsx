@@ -91,7 +91,7 @@ const Login = () => {
           right: 0;
           bottom: -10px;
           background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALElEQVQoU2NkIAIwEqGGAa5o1apV/5EF5OXlGZFtgNuBLAfTBExjdMmhIgkAoFAXLGJvLNIAAAAASUVORK5CYII=") repeat 0 0;
-          animation: snow 15s linear infinite;
+          animation: rain 15s linear infinite;
         }
 
         @keyframes snow {
