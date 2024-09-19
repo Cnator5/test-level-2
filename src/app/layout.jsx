@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import AuthProvider from './../../context/AuthContext';
 import Footer from '../Components/Footer/Footer';
 import ChatWidget from './../Components/ChatWidget';
-import ChatBot from '../components/ChatBot'; // Add this import
+import ChatBot from './../Components/ChatBot';
 
 const inter = Inter({ subsets: ["latin"] });
 
