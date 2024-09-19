@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           <main>{children}</main>
           <Footer />
           <ChatWidget />
-          <ChatBot /> {/* Add the ChatBot component here */}
+          <ChatBot /> 
         </AuthProvider>
       </body>
     </html>
