@@ -5,10 +5,6 @@ import styles from './ChatBot.module.css';
 // Keyword-based responses
 // Keyword-based responses
 const responses = {
-  // 'motor': 'Senator Lambi, you do not have money. Please hustle first. No buy car now',
-  // 'invest': 'Good idea, Senator Lambi. Wise investments can grow your wealth.',
-  // 'spend': 'Be cautious, Senator Lambi. Excessive spending can lead to financial troubles.',
-  // 'choosen': 'Shut up!',
   'hello': 'Hello! How can I assist you with your car search today?',
   'hi': 'Hi there! What kind of car are you looking for?',
   'hey': 'Hey! How can I help you find your perfect car?',
