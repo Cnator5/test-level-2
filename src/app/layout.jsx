@@ -3,7 +3,8 @@ import "./globals.css";
 import Navbar from '../Components/Navbar/Navbar';
 import AuthProvider from './../../context/AuthContext';
 import Footer from '../Components/Footer/Footer';
-import HeroSection from './../Components/HeroSection';
+import ChatWidget from './../Components/ChatWidget';
+import ChatBot from '../components/ChatBot'; // Add this import
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,18 +34,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="canonical" href="https://www.premiumcars.com" />
-        <link rel="icon" href="/favicon.ico" />
-      </head>
-      <AuthProvider>
-        <body className={inter.className}>
+      <body className={inter.className}>
+        <AuthProvider>
           <Navbar />
-          <HeroSection />
           <main>{children}</main>
           <Footer />
-        </body>
-      </AuthProvider>
+          <ChatWidget />
+          <ChatBot /> {/* Add the ChatBot component here */}
+        </AuthProvider>
+      </body>
     </html>
   );
 }
