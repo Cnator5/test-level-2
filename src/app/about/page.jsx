@@ -64,7 +64,7 @@ export default function About() {
                                     Premium Auto Sales was born from a passion for cars and a desire to revolutionize the car buying experience. Our founder, Jane Doe, started with a small lot and a big dream.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed">
-                                    Today, we are proud to be the region's leading car dealership, known for our exceptional customer service and unparalleled selection of vehicles.
+                                    Today, we are proud to be the region leading car dealership, known for our exceptional customer service and unparalleled selection of vehicles.
                                 </p>
                             </div>
                             <div className="md:w-1/3">
